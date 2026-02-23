@@ -1,7 +1,8 @@
 # Java-Language-Project-3.
 1.Project Title : ATM Simulation System (Core Java).
 
-Project Description : The ATM Simulation System is a desktop-based banking application developed using Core Java and Java Swing. It simulates the working of a real Automated Teller Machine by allowing users to perform common banking operations such as account creation, login authentication, balance inquiry, and cash withdrawal.
+Project Description :
+The ATM Simulation System is a desktop-based banking application developed using Core Java and Java Swing. It simulates the working of a real Automated Teller Machine by allowing users to perform common banking operations such as account creation, login authentication, balance inquiry, and cash withdrawal.
 
 The system provides a structured and secure environment for managing ATM operations while demonstrating the practical use of Object-Oriented Programming, GUI development, and file-based data persistence in Java. It is designed primarily for educational purposes and helps students understand how real ATM systems manage user authentication and transactions.
 
