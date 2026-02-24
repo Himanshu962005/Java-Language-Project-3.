@@ -8,32 +8,32 @@ The system provides a structured and secure environment for managing ATM operati
 
 **Key Features :**
 
-1.**Account Management :**
+1. **Account Management :**
 
   * Create new bank accounts with user details.
   * Each account is assigned a unique Account Number and PIN.
   * Secure login system using PIN authentication.
   * User data stored persistently using file handling.
 
-2.**ATM Operations :**
+2. **ATM Operations :**
 
   * Balance Inquiry to check current account balance.
   * Cash Withdrawal with validation to prevent overdraft.
   * Deposit Money into the account.
   * Transaction updates reflected immediately in stored data.
 
-3.**Security System :**
+3. **Security System :**
 
   * PIN-based authentication for secure access.
   * Limited login attempts to prevent unauthorized usage.
   * Secure handling of user data.
 
-4.**Graphical User Interface :**
+4. **Graphical User Interface :**
 
   * Built using Java Swing components such as JFrame, JButton, JLabel, JTextField, and Panels.
   * Interactive and easy-to-use interface simulating a real ATM dashboard.
 
-5.**Core Functional Modules :**
+5. **Core Functional Modules :**
 
   * User Authentication Module.
   * Handles login using account number and PIN.
@@ -45,7 +45,7 @@ The system provides a structured and secure environment for managing ATM operati
   * Stores account data using file handling / serialization.
   * Ensures persistent storage of user information and transactions.
 
-6.**Technologies Used :**
+6. **Technologies Used :**
 
   * Programming Language : Java (Core Java).
   * GUI Framework : Java Swing.
@@ -53,12 +53,12 @@ The system provides a structured and secure environment for managing ATM operati
   * Data Storage : File Handling / Serialization.
   * Platform : Desktop Application.
 
-7.**Learning Outcomes :**
+7. **Learning Outcomes :**
 
   * Implementation of GUI-based desktop applications using Java Swing.
   * Understanding of banking system workflow and authentication logic.
   * Application of OOP concepts such as classes, objects, encapsulation, and modular design.
   * Practical experience with file handling and persistent data storage in Java.
 
-8.**Conclusion :**
+8. **Conclusion :**
 The ATM Simulation System demonstrates how a real-world ATM operates through a simplified software implementation. The project integrates GUI design, authentication mechanisms, and transaction management into a single application, making it a valuable educational project for students learning Java programming and desktop application development.
