@@ -109,10 +109,10 @@ Recurring transactions are automatically generated for the selected date range.
 
 2.3 **Data Storage**
 The program stores transaction data in a CSV file.
-*Storage location:*
-User Home Directory
-→ .expense_tracker
-→ transactions.csv
+**Storage location:**
+**User Home Directory**
+* → .expense_tracker
+* → transactions.csv
 
 **Functions provided:**
 * Load transactions when the program starts
@@ -128,30 +128,30 @@ This functionality is handled by the DataStorage class.
 * Total Expense
 * Remaining Balance
 * Formula:*
-Balance = Income − Expense
+* Balance = Income − Expense
 
 3.2 **Monthly Summary Report**
 Shows financial data for each month:
 *Example output:*
-2026-01
-Income : ₹50000
-Expense : ₹30000
-Balance : ₹20000
+* 2026-01
+* Income : ₹50000
+* Expense : ₹30000
+* Balance : ₹20000
 
 3.3 **Yearly Summary Report**
 Displays financial totals for each year.
 *Example:*
-2026
-Income : ₹600000
-Expense : ₹420000
-Balance : ₹180000
+* 2026
+* Income : ₹600000
+* Expense : ₹420000
+* Balance : ₹180000
 
 3.4 **Category Spending Report**
 *Shows how much money is spent in each category:*
 Example:
-Food : ₹4500
-Transport : ₹1500
-Shopping : ₹2000
+* Food : ₹4500
+* Transport : ₹1500
+* Shopping : ₹2000
 This helps identify spending habits.
 
 4. **Graphical User Interface (GUI)**
@@ -171,9 +171,9 @@ The application uses Java Swing components.
 Also includes Month and Year filters.
 
 **Center Panel**
-Displays transactions in a table format using JTable.
+* Displays transactions in a table format using JTable.
 *Columns:*
-Date | Type | Category | Amount | Description | Recurrence
+* Date | Type | Category | Amount | Description | Recurrence
 
 **Right Panel**
 **Shows financial statistics:**
@@ -189,27 +189,27 @@ Users can set a monthly budget.
 * Percentage of budget used
 * Visual progress bar
 **Example:**
-Expense : ₹8000
-Budget : ₹10000
-Used : 80%
+* Expense : ₹8000
+* Budget : ₹10000
+* Used : 80%
 
 6. **Data Visualization**
 A Pie Chart displays spending distribution by category.
 **Example:**
-Food        → 40%
-Transport   → 20%
-Shopping    → 25%
-Bills       → 15%
+* Food        → 40%
+* Transport   → 20%
+* Shopping    → 25%
+* Bills       → 15%
 This helps users quickly understand where money is being spent.
 
 7. **Technologies Used**
 Technology	Purpose
-Java	Core programming language
-Swing	Graphical User Interface
-CSV File	Data storage
-JTable	Transaction table
-Graphics2D	Pie chart visualization
-Java Time API	Date and time management
+* Java	Core programming language
+* Swing	Graphical User Interface
+* CSV File	Data storage
+* JTable	Transaction table
+* Graphics2D	Pie chart visualization
+* Java Time API	Date and time management
 
 8. **Advantages of the System**
 * Easy financial tracking
