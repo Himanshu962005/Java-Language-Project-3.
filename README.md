@@ -221,3 +221,38 @@ Technology	Purpose
 
 9. **Conclusion**
 The Expense Tracker System is a complete personal finance management application built using Java Swing. It allows users to record transactions, analyze financial data, visualize spending patterns, and maintain a budget efficiently. The system improves financial awareness and helps users manage their money in a structured and organized way.
+
+3.**Project Title : Anime Quiz Application System.**
+
+**Project Description :**
+A Java Swing-based desktop quiz application that tests your knowledge across 10 popular anime series — including Naruto, Pokémon, Jujutsu Kaisen, Solo Leveling, One Punch Man, and more!.
+
+**🚀 Features**
+* 10 Anime Categories — Beyblade, Pokémon, Naruto and Boruto, Miraculous, One Punch Man, Ben 10, Jujutsu Kaisen, Lookism, Solo Leveling, Ranma 1/2.
+* Randomized Questions — Answer options are shuffled every game for a fresh experience.
+* Difficulty Modes — Choose between Easy (10s), Medium (20s), and Hard (30s) per question.
+* Flexible Question Count — Select anywhere from 5 to 100 questions per session.
+* Live Countdown Timer — A per-question timer adds pressure and excitement.
+* XP & Leveling System — Earn XP for every correct answer and level up over time.
+* Rank Progression — Climb from Beginner all the way to Legendary Anime Watcher.
+* Achievement System — Unlock 10 unique achievements as your XP grows.
+* Persistent Player Profiles — Stats are saved locally and loaded automatically on return.
+* Detailed Results Screen — Review every answer after the quiz with correct/incorrect breakdowns.
+* Profile Stats Viewer — See your best scores per anime, total accuracy, games played, and more.
+
+**🛠️ Tech Stack**
+* Language: Java.
+* GUI Framework: Java Swing.
+* Data Persistence: Java Object Serialization (.dat files).
+* Architecture: Multi-frame MVC-style layout.
+
+**📁 Project Structure :**
+FileRoleMain.javaEntry pointStartFrame.javaMain menu UIQuizFrame.javaQuiz gameplay UIResultFrame.javaResults & review screenProfileStatsFrame.javaPlayer stats viewerPlayerProfile.javaProfile logic & file I/OPlayerProfileData.javaSerializable profile dataQuestionBank.javaAll quiz questionsQuestion.javaQuestion model with shufflingRankSystem.javaXP-to-rank mappingAchievementSystem.javaXP-based achievement unlocks
+
+**▶️ How to Run**
+* bashjavac *.java
+* java Main
+* No external dependencies required — runs on any machine with Java 8+.
+
+**👤 Author**
+Built with ❤️ for anime fans who love a good challenge.
