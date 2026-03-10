@@ -222,7 +222,7 @@ Technology	Purpose
 9. **Conclusion**
 The Expense Tracker System is a complete personal finance management application built using Java Swing. It allows users to record transactions, analyze financial data, visualize spending patterns, and maintain a budget efficiently. The system improves financial awareness and helps users manage their money in a structured and organized way.
 
-3.**Project Title : Anime Quiz Application System.**
+3.**Project Title : Anime Quiz Application System (Core Java).**
 
 **Project Description :**
 A Java Swing-based desktop quiz application that tests your knowledge across 10 popular anime series — including Naruto, Pokémon, Jujutsu Kaisen, Solo Leveling, One Punch Man, and more!.
@@ -249,7 +249,7 @@ A Java Swing-based desktop quiz application that tests your knowledge across 10 
 **📁 Project Structure :**
 FileRoleMain.javaEntry pointStartFrame.javaMain menu UIQuizFrame.javaQuiz gameplay UIResultFrame.javaResults & review screenProfileStatsFrame.javaPlayer stats viewerPlayerProfile.javaProfile logic & file I/OPlayerProfileData.javaSerializable profile dataQuestionBank.javaAll quiz questionsQuestion.javaQuestion model with shufflingRankSystem.javaXP-to-rank mappingAchievementSystem.javaXP-based achievement unlocks
 
-**▶️ How to Run**
+**▶️ How to Run :**
 * bashjavac *.java
 * java Main
 * No external dependencies required — runs on any machine with Java 8+.
